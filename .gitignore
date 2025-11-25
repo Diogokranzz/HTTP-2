@@ -1,0 +1,35 @@
+# Build directories
+build/
+out/
+bin/
+
+# Object files and libraries
+*.obj
+*.pdb
+*.lib
+*.dll
+*.exe
+*.ilk
+*.exp
+*.idb
+
+# Logs
+*.log
+*.tlog
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/

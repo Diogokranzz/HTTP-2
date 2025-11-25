@@ -1,0 +1,35 @@
+Microsoft (R) C/C++ Optimizing Compiler Vers∆o 19.44.35219 para x64
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+/std:c++mais recente Ç fornecido como uma vers∆o prÇvia dos recursos de linguagem do rascunho de
+trabalho mais recente do C++ e estamos ansiosos por saber sobre bugs e sugest‰es para aprimoramentos.
+No entanto, observe que esses recursos s∆o fornecidos no estado em que se encontram sem suporte e est∆o sujeitos
+a alteraá‰es ou remoá∆o conforme a evoluá∆o do rascunho de trabalho. Consulte
+https://go.microsoft.com/fwlink/?linkid=2045807 para obter detalhes.
+
+main.cpp
+D:\Projetos\DK\src\http\Request.hpp(10): error C2143: erro de sintaxe: '}' ausente antes de '('
+D:\Projetos\DK\src\http\Request.hpp(10): error C2059: erro de sintaxe: 'constante'
+D:\Projetos\DK\src\http\Request.hpp(11): error C2143: erro de sintaxe: ';' ausente antes de '}'
+D:\Projetos\DK\src\http\Request.hpp(19): error C3646: 'method': especificador de substituiá∆o desconhecido
+D:\Projetos\DK\src\http\Request.hpp(19): error C4430: faltando especificador de tipo - int assumido. Observaá∆o: C++ n∆o suporta default-int
+D:\Projetos\DK\src\http\Request.hpp(37): error C2059: erro de sintaxe: '}'
+D:\Projetos\DK\src\http\Request.hpp(37): error C2143: erro de sintaxe: ';' ausente antes de '}'
+D:\Projetos\DK\src\http/Parser.hpp(5): error C2143: erro de sintaxe: ';' ausente antes de '{'
+D:\Projetos\DK\src\http/Parser.hpp(5): error C2447: '{': faltando cabeáalho de funá∆o (lista formal de estilo antigo?)
+src\main.cpp(20): error C2039: ' Parser': n∆o Ç um membro de 'http'
+D:\Projetos\DK\src\http\Request.hpp(7): note: consulte a declaraá∆o de 'http'
+src\main.cpp(20): error C2065: 'Parser': identificador n∆o declarado
+src\main.cpp(20): error C2146: erro de sintaxe: ';' ausente antes do identificador 'parser'
+src\main.cpp(20): error C2065: 'parser': identificador n∆o declarado
+src\main.cpp(21): error C2065: 'parser': identificador n∆o declarado
+src\main.cpp(23): error C2065: 'parser': identificador n∆o declarado
+src\main.cpp(23): error C3083: 'Parser': o s°mbolo Ö esquerda de um '::' deve ser um tipo
+src\main.cpp(23): error C3083: 'State': o s°mbolo Ö esquerda de um '::' deve ser um tipo
+src\main.cpp(23): error C2039: ' COMPLETE': n∆o Ç um membro de 'http'
+D:\Projetos\DK\src\http\Request.hpp(7): note: consulte a declaraá∆o de 'http'
+src\main.cpp(23): error C2065: 'COMPLETE': identificador n∆o declarado
+src\main.cpp(24): error C2065: 'parser': identificador n∆o declarado
+src\main.cpp(24): error C2530: 'req': referàncias devem ser inicializadas
+src\main.cpp(25): error C3536: 'req': n∆o pode ser usado antes de ser inicializado
+src\main.cpp(34): error C2065: 'parser': identificador n∆o declarado

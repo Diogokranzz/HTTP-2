@@ -1,0 +1,3 @@
+D:/Projetos/DK/build/CMakeFiles/server.dir
+D:/Projetos/DK/build/CMakeFiles/edit_cache.dir
+D:/Projetos/DK/build/CMakeFiles/rebuild_cache.dir
