@@ -1,11 +1,11 @@
 # 🚀 DK Server: A Jornada do C++23 Moderno
 
 Bem-vindo ao **DK Server**.  
-Este projeto não é apenas mais um servidor web — é um experimento profundo sobre o potencial do **C++23**, **Corrotinas** e **I/O Assíncrono de Baixo Nível**.
+Este projeto não é apenas mais um servidor web é um experimento profundo sobre o potencial do **C++23**, **Corrotinas** e **I/O Assíncrono de Baixo Nível**.
 
 O objetivo principal:
 
-> **Construir um servidor capaz de lidar com milhares de conexões simultâneas (C10k) sem frameworks pesados — entendendo cada byte que trafega pela rede.**
+> **Construir um servidor capaz de lidar com milhares de conexões simultâneas (C10k) sem frameworks pesados, entendendo cada byte que trafega pela rede.**
 
 Tudo foi construído manualmente, do zero.
 
@@ -15,7 +15,7 @@ Tudo foi construído manualmente, do zero.
 
 O DK Server é um servidor **HTTP/1.1** e **HTTP/2** de alta performance, completamente **assíncrono** e **não-bloqueante**.
 
-Ele nunca fica parado esperando disco ou rede — ele continua processando tudo em paralelo.
+Ele nunca fica parado esperando disco ou rede ele continua processando tudo em paralelo.
 
 ### 🔄 Filosofia Zero-Copy
 
@@ -39,7 +39,7 @@ Usamos corrotinas modernas (`co_await`, `co_return`) para escrever código assí
 Implementamos a camada TLS manualmente dentro do loop assíncrono.
 
 ### **Windows IOCP**
-A API de I/O mais poderosa do Windows — usada como base do servidor.
+A API de I/O mais poderosa do Windows  usada como base do servidor.
 
 ### **Python**
 Criamos scripts automatizados de testes (incluindo validador de HTTP/2).
@@ -126,5 +126,6 @@ Os próximos passos incluem:
 
 ## 🧡 Desenvolvido com Paixão
 
-Criado para estudar sistemas operacionais, protocolos modernos e C++ de verdade — aquele C++ “raiz”, feito na unha.
+Criado para estudar sistemas operacionais, protocolos modernos e C++ de verdade aquele C++ “raiz”, feito na unha.
+
 
